@@ -24,8 +24,9 @@ function Resume() {
             </a>
           </p>
 
-          <a
-            href="../../assets/resume.pdf"
+          <a 
+            target="_blank" rel="noreferrer"
+            href="https://docdro.id/XQO595y"
             class="link"
           >
             Download Resume

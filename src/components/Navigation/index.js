@@ -1,28 +1,35 @@
 import React from 'react';
 
 function Navigation(props) {
-    const {
-        navItems = [],
-        contactSelected,
-        setContactSelected,
-      } = props;
+    // const {
+    //     navItems = [],
+    //     contactSelected,
+    //     setContactSelected,
+    //   } = props;
+      
     return (
     <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#about" onClick={() => props.pageChanger("about")}>
               About me
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="mx-2">
+            <a data-testid="contact" href="#contact" onClick={() => props.pageChanger("contact")}>
+              Contact
+            </a>
           </li>
-                <li>
-                    <a href="#portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
-                </li>
-                <li>
-                    <span>Resume</span>
-                </li>
+          <li className="mx-2">
+            <a data-testid="portfolio" href="#portfolio" onClick={() => props.pageChanger("portfolio")}>
+              Portfolio
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="resume" href="#resume" onClick={() => props.pageChanger("resume")}>
+              Resume
+            </a>
+          </li>
          
         </ul>
     </nav>

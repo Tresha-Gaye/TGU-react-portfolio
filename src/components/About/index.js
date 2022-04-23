@@ -4,16 +4,15 @@ function About() {
 
     return(
         <section>
-            <h2 >Tresha-Gaye Ustanny</h2>
-            <hr></hr>
             <div>
-                <img id="photo" src="../../assets/tresha.jpg" alt="Tresha-Gaye Ustanny" />
+                <img id="photo" src={process.env.PUBLIC_URL + "/assets/tresha.jpg"} alt="Tresha-Gaye Ustanny" />
 
+            <hr></hr>
                 <p>
                 Enthusiastic Full Stack Web Developer. 
                 </p>
                 <p>
-                Strong Project Mangaement and leadership background.
+                Strong Project Management and leadership background.
                 </p>
             </div>
         </section>

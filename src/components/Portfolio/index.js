@@ -3,9 +3,6 @@ import Project from '../../components/Project'
 import portfolio from '../../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Wrapper(props) {
-    return <div className="wrapper">{props.children}</div>;
-}
 
 function Portfolio () {  
 
@@ -16,11 +13,11 @@ function Portfolio () {
             <hr></hr>
           </div>
 
-          <Wrapper id="card-data">
+          <div className="wrapper" id="card-data">
             {portfolio.map((project) => (
               <Project key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
             ))}
-          </Wrapper>
+          </div>
         </section>
     
     );

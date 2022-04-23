@@ -4,7 +4,7 @@
 
 This application is my personal portfolio and showcases several projects that I recently completed using the latest technologies.
 
-You may view the deployed application by [clicking this link](https://tresha-gaye.github.io/TGU-react-portfolio).
+You may view the deployed application by [clicking this link](http://Tresha-Gaye.github.io/TGU-react-portfolio/).
 
 ## Technologies
 

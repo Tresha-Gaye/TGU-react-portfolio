@@ -95,7 +95,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--tertiary);
 }
 
 header a {
@@ -326,9 +326,9 @@ textarea {
 }
 
 .topics {
-  font-size: small;
-  font-style: italic;
-  color: var(--cultured);
+  font-size: smaller;
+  font-style: bold;
+  color: var(darker);
   background-color: var(--white)
 }
 

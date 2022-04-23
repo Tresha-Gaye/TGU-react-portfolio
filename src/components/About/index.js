@@ -7,7 +7,7 @@ function About() {
             <h2 >Tresha-Gaye Ustanny</h2>
             <hr></hr>
             <div>
-                <img id="photo" src="../public/images/tresha.jpg" alt="Tresha-Gaye Ustanny" />
+                <img id="photo" src="../../assets/tresha.jpg" alt="Tresha-Gaye Ustanny" />
 
                 <p>
                 Enthusiastic Full Stack Web Developer. 

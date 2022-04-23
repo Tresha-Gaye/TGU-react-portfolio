@@ -4,13 +4,13 @@ import Navigation from '../Navigation'; // only imported into header, conditiona
 function Header(props){
 
     return(
-        <div>
+        <header>
             <h1>Tresha-Gaye Ustanny</h1>
             <Navigation 
             pageChanger = {
                 props.pageChanger}
             />
-        </div>
+        </header>
     )
 }
 

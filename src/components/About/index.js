@@ -12,9 +12,20 @@ function About() {
                 Enthusiastic Full Stack Web Developer. 
                 </p>
                 <p>
-                Strong Project Management and leadership background.
+                Innovative and proactive. 
+                Capable of successfully developing elegant, groundbreaking web and command line applications. 
+                </p>
+                <p>
+                Certified in project management, experienced in team leadership and independent problem-solving.
+                </p>
+                <p>
+                Highly-organized multitasker with expertise in scheduling projects, enhancing designs and verifying code.
                 </p>
             </div>
+
+            <br />
+
+            
         </section>
     )
 }

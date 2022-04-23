@@ -8,9 +8,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: #d8d8d8;
+  --secondary: #ffffea;
+  --tertiary: #ff5e5b;
   --light: #fafafa;
   --cultured: #A3A3A3;
   --dark: #000000;
@@ -38,7 +38,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--light);
+  background: var(--secondary);
   font-family: Arial, Helvetica, sans-serif;
 }
 

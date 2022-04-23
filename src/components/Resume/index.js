@@ -8,12 +8,6 @@ function Resume() {
 
       <div>
         <div class="mt-5">
-          <h2 className="top-title">Tresha-Gaye Ustanny</h2>
-          <ul>
-            <li>
-              Full-stack web
-            </li>
-          </ul>
 
           <p class="mt-5">
             <a href="https://www.linkedin.com/in/tresha-gaye-ustanny/">
@@ -41,11 +35,12 @@ function Resume() {
             <li>
             HTML, CSS (Bootstrap, Bulma), JavaScript, jQuery, React.js, IndexedDB,<br />
             Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs,<br />
-            React, GrapgQL,
+            React, GraphQL,
             </li>
           </ul>
         </div>
       </div>
+      <br />
     </section>
   );
 }

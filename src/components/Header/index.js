@@ -4,7 +4,6 @@ import Navigation from '../Navigation'; // only imported into header, conditiona
 function Header(){
     return(
         <div>
-            <h1>Header</h1>
             <Navigation />
         </div>
     )

@@ -5,6 +5,10 @@ function About() {
     return(
         <section>
             <div>
+            <div className="project">
+            <h2 className="top-title">About Me</h2>
+            <hr></hr>
+          </div>
                 <img id="photo" src={process.env.PUBLIC_URL + "/assets/tresha.jpg"} alt="Tresha-Gaye Ustanny" />
 
             <hr></hr>

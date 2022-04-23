@@ -46,7 +46,15 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+       <div className="project">
+          <h2 className="top-title">Contact</h2>
+          <hr></hr>
+      </div>
+
+      <div>
+      
+      </div>
+
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -82,6 +90,21 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+
+      <hr />
+
+      <div>
+        <h4>Contact Me</h4>
+      </div>
+      <div class="section-text contact-info border-box">
+        <p> 
+          <a href = "mailto: treshagaye@gmail.com">Send Email</a>
+        </p>
+        <p> 
+          <a href="https://twitter.com/treshagaye" target="Twitter">Twitter</a>
+        </p>
+      </div>
+
     </section>
   );
 }

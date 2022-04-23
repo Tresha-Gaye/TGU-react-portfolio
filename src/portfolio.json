@@ -13,7 +13,7 @@
         "image": "/assets/work-schez-timed.jpg",
         "github": "https://github.com/Tresha-Gaye/work-schedz",
         "deploy": "https://tresha-gaye.github.io/work-schedz/",
-        "topics": "HTML5, CSS, Javascript, jQuery, Bootstrap, Moment.js"
+        "topics": "Javascript, jQuery, Bootstrap, Moment.js"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "image": "/assets/homepage.jpg",
         "github": "https://github.com/Tresha-Gaye/tech-blog",
         "deploy": "https://sheltered-dusk-58247.herokuapp.com/",
-        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+        "topics": "Node, Sequelize, Handlebars, Express-session, Jawsdb, MVC, dotenv"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "image": "/assets/budget1.jpg",
         "github": "https://github.com/Tresha-Gaye/budget-trackR",
         "deploy": "https://pwa-budget-traker.herokuapp.com/",
-        "topics": "Node, Express, Javascript, MongoDB, Mongoose, IndexDB, Service Worker, Web Manifest"
+        "topics": "Node, Express, MongoDB, Mongoose, IndexDB, Service Worker, Web Manifest"
     },
     {
         "id": 6,

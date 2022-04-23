@@ -18,7 +18,9 @@ function Project(props) {
              </p>
               <p class="topics">
                     ({props.topics})
-                </p>
+              </p>
+              <a target="_blank" rel="noreferrer" href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
+              <a target="_blank" rel="noreferrer" href={props.deploy}><img src="https://img.icons8.com/ios/50/000000/domain.png" alt="Deployed application" className="icon"/></a>
         </div>
       </div>
     );

@@ -34,9 +34,9 @@ function Resume() {
           <h2 className="top-title">Technologies</h2>
           <ul>
             <li>
-            HTML, CSS (Bootstrap, Bulma), JavaScript, jQuery, React.js, IndexedDB,<br />
-            Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, NoSQL, APIs,<br />
-            React, GraphQL,
+            HTML, CSS (Bootstrap, Bulma, Chakra-UI), JavaScript, jQuery, APIs, <br />
+            React.js, Node.js, Express.js, SQL, Sequelize, MongoDB, Mongoose, <br />
+            GraphQL, Apollo Client, Progressive Web Apps using IndexedDB, Service Workers & Webpack  
             </li>
           </ul>
         </div>

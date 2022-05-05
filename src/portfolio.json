@@ -46,6 +46,14 @@
         "github": "https://github.com/Tresha-Gaye/CodR-Quiz",
         "deploy": "https://tresha-gaye.github.io/CodR-Quiz/",
         "topics": "Javascript, HTML, CSS"
+    },
+    {
+        "id": 7,
+        "name": "Extreme Checkers",
+        "image": "/assets/Screenshot_2.png",
+        "github": "https://github.com/Zacharycampanelli/Checkers_Club",
+        "deploy": "https://extreme-checkers-app.herokuapp.com/",
+        "topics": "MERN stack, GraphQL, Chakra-UI"
     }
 
 ]
